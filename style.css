@@ -1,0 +1,55 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #002e2c;
+}
+
+#text-output {
+  min-height: 200px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  background-color: #d3d3d3;
+}
+
+label {
+  color: white;
+  font-weight: 300;
+}
+
+.p-container {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  font-weight: 500;
+  width: 600px;
+}
+
+#text-input {
+  min-height: 200px;
+  background-color: #d3d3d3;
+  outline: none;
+}
+
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
